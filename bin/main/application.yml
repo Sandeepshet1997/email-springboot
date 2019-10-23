@@ -1,0 +1,21 @@
+#Mail Properties
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 465
+    use SSL: checked 
+    username: sandeepsheta20@gmail.com 
+    password: Sandeep@9611
+    default from: sandeepsheta20@gmail.com
+#Other properties
+    properties:
+      mail:
+        smtp:
+          auth: true
+          connectiontimeout: 50000
+          
+ #enable tls
+ 
+          starttls:
+            enable: true
+
